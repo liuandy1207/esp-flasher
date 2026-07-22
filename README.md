@@ -3,18 +3,15 @@
 Web-hosted firmware flasher for the ESP32-S3 WROOM Board.
 
 Firmware flashed includes:
-- Micropython 
-- ulab
-- camera
-
-
-From this link: https://micropython.org/download/ESP32_GENERIC_S3/, we want the latest .bin under **Firmware (Support for Octal-SPIRAM)**. This flasher uses v1.28.
+- Micropython (v1.29.0)
+- ulab (v6.12.1)
+- camera (v0.6.2)
 
 copied this
 https://github.com/cnadler86/micropython-camera-API#build-your-custom-firmware
 
-the camera is a freenove esp32s3
-
-from firmware directory:
+to build, run in the firmware directory:
 `micropython-camera-API/build.sh micropython -b ESP32_GENERIC_S3 -v SPIRAM_OCT`
 
+to flash:
+use the web tool or do `idf.py -B build-mp_camera-ESP32_GENERIC_S3_SPIRAM_OCT erase-flash flash` with an existing esp-idf environment (do `. ~/esp/esp-idf/export.sh`).
