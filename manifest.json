@@ -1,0 +1,13 @@
+{
+  "name": "ESP32 Flasher",
+  "version": "0.1",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "firmware/micropython/ports/esp32/build-mp_camera-ESP32_GENERIC_S3_SPIRAM_OCT/firmware.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
