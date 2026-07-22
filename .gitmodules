@@ -1,9 +1,0 @@
-[submodule "firmware/firmware/micropython-camera-API"]
-	path = firmware/firmware/micropython-camera-API
-	url = https://github.com/cnadler86/micropython-camera-API.git
-[submodule "firmware/firmware/micropython"]
-	path = firmware/firmware/micropython
-	url = https://github.com/micropython/micropython.git
-[submodule "firmware/firmware/ulab"]
-	path = firmware/firmware/ulab
-	url = https://github.com/v923z/micropython-ulab.git
