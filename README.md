@@ -10,8 +10,8 @@ Firmware flashed includes:
 copied this
 https://github.com/cnadler86/micropython-camera-API#build-your-custom-firmware
 
-to build, run in the firmware directory:
-`micropython-camera-API/build.sh micropython -b ESP32_GENERIC_S3 -v SPIRAM_OCT`
+to build, run:
+`firmware/micropython-camera-API/build.sh firmware/micropython -b ESP32_GENERIC_S3 -v SPIRAM_OCT`
 
 to flash:
 use the web tool or do `idf.py -B build-mp_camera-ESP32_GENERIC_S3_SPIRAM_OCT erase-flash flash` with an existing esp-idf environment (do `. ~/esp/esp-idf/export.sh`). 
